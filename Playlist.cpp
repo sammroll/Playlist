@@ -68,7 +68,6 @@ bool Playlist::remove(string id) {
 
 void Playlist::changeSongPosition(int songPosition, int newPosition) {
 	SongNode* curr = head;
-	//SongNode* tmp = head;
 	int pos = 1;
 
 	while (curr != nullptr) { //Find songNode that is at songPosition
